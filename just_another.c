@@ -13,7 +13,7 @@
  *
  * Return: The count of characters printed, or -1 in case of an error.
  */
-int just_print(const char *fmt, int *ind, va_list list, char buffer[],
+int just_another(const char *fmt, int *ind, va_list list, char buffer[],
 		int flags, int width, int precision, int size)
 {
 	int i, unknown_len = 0;

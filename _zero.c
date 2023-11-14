@@ -43,7 +43,7 @@ int d(const char *e, ...)
 			l = just_precision(e, &i, p);
 			m = just_size(e, &i);
 			++i;
-			g = just_print(e, &i, p, q, f, k, l, m);
+			g = just_another(e, &i, p, q, f, k, l, m);
 			if (g == -1)
 				return (-1);
 			j += g;
