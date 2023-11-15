@@ -4,14 +4,14 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-typedef struct dformat
+typedef struct format
 {
 	char *jd;
 	int (*e)();
 } dmatch;
 
 int dprintf_charact(va_list valt);
-int _putchar(char d);
+int _putchar(char c);
 int _printf(const char *format, ...);
 int dprintf_str(va_list valt);
 int _dstrlen(char *dstr);

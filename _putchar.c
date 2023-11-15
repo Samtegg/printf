@@ -1,4 +1,6 @@
 #include "main.h"
+#include <unistd.h>
+#include <unistd.h>
 
 /**
  * _putchar - this writes the charact c to the standout
