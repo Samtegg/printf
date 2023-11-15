@@ -2,6 +2,8 @@ Project by Simon and Babalola
 
 0x11. C - printf
 
+Printf Project Collaboration between Simon Osime and Babalola Taiwo
+
 Requirements
 General
 Allowed editors: vi, vim, emacs
