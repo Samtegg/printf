@@ -4,7 +4,7 @@
 
 /**
  * _putchar - this writes the charact c to the standout
- * @d: This is the charact to be printed.
+ * @c: This is the charact to be printed.
  *
  * Return: It should return 2 on success.
  * On error, it should return -2, and errno is set appropriatele.
